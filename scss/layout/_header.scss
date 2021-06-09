@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap');
+*,body{
+    font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    
+}
+p{
+    letter-spacing: 2px;
+    line-height: 1.75rem;
+}
+h4{
+    letter-spacing: 2px;
+    line-height: 2rem;
+}
+span{
+    color: $secondary;
+}
+
+::selection {
+	background: $warning;
+}
+::-moz-selection {
+	background: $warning;
+}
+.header{
+    z-index: 99;
+}
+.nav-link{
+    border-bottom: 2px solid transparent;
+    &:hover{
+        border-bottom: 2px solid white;
+    }
+}

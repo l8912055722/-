@@ -14020,6 +14020,14 @@ figcaption {
   margin-bottom: 100px;
 }
 
+.doc {
+  color: white;
+}
+
+.doc a {
+  color: white;
+}
+
 #GoTop {
   border-radius: 100%;
   position: fixed;
